@@ -1,0 +1,446 @@
+
+
+/*quando a tela for maior que 600px*/
+@media only screen and (max-width: 600px) {
+
+}
+
+
+html{
+   scroll-behavior: smooth;
+
+}
+
+
+body{
+
+ background-image: url("../img/Retrô.jpg");
+ background-repeat: round;
+ font-family: 'Lora', serif;
+ background-color: white;
+ background-attachment: fixed;
+ background-size:cover;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+
+}
+header, footer{
+
+    background-image: url("../img/fundo roxo.jpg");
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    line-height: bolder;
+    font-family: Arial, cursive;
+}
+  .fixo{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+}
+
+  .ajustes{
+
+    line-height: 1;
+    text-align: center;
+
+ }
+
+.ajustes li: hover{
+    background-color: none;
+    color: none ;
+
+}
+
+.container{
+ width: 50%;
+ margin-right: auto;
+ margin-left: auto;
+ position: relative;
+ margin-top: 30%;
+ font-family: 'Lora', serif;
+}
+
+
+
+ header{
+
+  flex-direction: row;
+  position: relative;
+  height: 160px;
+  
+}
+
+
+ p.ridge {
+
+ border-style: ridge;
+
+}   
+
+
+ #sobre{
+  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   margin: 0 auto;
+ }  
+
+ #sobre.sobre{
+   text-align: center;
+
+ }
+
+ .imgsobre{
+ 
+    width: 20%;
+    height: 20%;
+ }  
+
+h1{
+  font-family: Arial, cursive;
+  text-align:center;
+  font-weight:bolder;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 40px;
+  
+}
+
+h2{
+
+  color: #000000;
+  font-size: 1.2em;
+}
+
+h3{
+  font-size: 1.2em;
+
+}
+
+
+.titulos{
+text-align: center;
+color:#fff; 
+font-variant: bolder;
+
+} 
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+p{
+        
+   color: #fff;
+   font-weight: bolder;
+   font-size: 22px;
+   text-align: justify;
+   text-align: ;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   font-family: Arial, cursive;
+
+
+}
+
+.centro{
+    color: #fff; 
+    text-align: center;
+
+
+}
+
+nav{
+
+ width:100%; 
+ font-weight:bolder;
+ font-size: 18px;
+ text-align: justify;
+ height: ;
+ box-shadow: 0 10px 15px rgba(0,0,0,0.0)
+
+}
+
+.{
+
+color:#fff;
+text-align: center;
+font-weight:bolder;
+font-size: 18px;
+text-align: justify;
+font-family:  Arial, cursive;
+margin-top: 2%;
+margin-bottom: 2%;
+
+
+}
+
+figure{
+
+text-align:center;
+
+}
+      
+.imgtexto{
+width: 70%;
+
+    
+}
+
+
+a:link {
+color: #7FFFD4;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:visited {
+color: #00FFFF;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: 	#66CDAA;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:active {
+color: #7FFFD4; 
+background-color: transparent;
+text-decoration: none;
+}
+
+
+div.a {
+	text-align: center;
+}
+
+
+
+figcaption {
+ color: #fff;
+ padding: 2px;
+ text-align: center;
+}
+
+
+p.main {
+  text-align: justify;
+  font-size: 18px;
+  text-align: justify;
+  font-family:  URW Chancery L, cursive
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+figcaption {
+ 
+  color: white;
+  font-family: URW Chancery L, cursive
+  padding: 2px;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.video{
+   text-align: center;
+
+}
+
+.testeri{
+   float: left;
+   margin-right: 5%;
+
+}
+
+.testepa{
+   margin-left: 25%;
+
+}
+
+.testele{
+   float: right;
+   margin-left: 3%;
+}
+
+.testepale{
+   margin-right: 25%;
+
+}
+
+.fundo{
+   background: #B0C4DE;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 3%; 
+   font-size: 1.2em; 
+}
+
+.distancia{
+   margin-top: 2%; 
+   margin-bottom: 2%;
+
+}
+
+input[type=text], select, textarea {
+   width: 80%;
+   padding: 12px 20px; 
+   display: block;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4682B4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+fieldset{
+     width: 80%;
+     border: 2px solid #ccc;
+     padding: 2%; 
+
+}
+
+.item{
+
+    position: relative;
+    margin: 10px 0px;
+
+}
+
+.item::before{
+content: '';
+position: relative;
+left: 0;
+top: 0;
+padding: 10px 15px;
+background-image: url('../img/Monitor.png'); 
+background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 599px) {
+   .container{
+    margin-top: 65%;
+
+   }
+   }
+        /*tela maior que 600px */
+@media screen and (min-width: 600px) {
+   .container{
+       margin-top: 40%;
+    }
+    }
+
+       /*telas maiores que 768px */  
+@media screen and (min-width: 768px) {
+   .container{
+    margin-top: 20%;
+
+    }
+    }
+
+.menu-opcoes{
+
+  position: absolute;
+  right: 5%;
+  top: 45%;
+
+}
+
+ .menu-opcoes ul li{
+
+  display: inline;
+  margin-left: 5px;
+  
+}
+ 
+  .imglogo{
+   width: 70%;
+   position: absolution;
+   left: 5%;
+   top: 5%;
+
+ }
+
+ #sobre{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+ }
+
+ #sobre h1,h3,p{
+    width: 100%;
+    text-align: center;
+
+ }
+
+ #sobre .sobre{
+    width: 25%;
+    text-align: center;
+ }
+
+
+
+.imgsobre{    
+
+   width: 20%;
+   height: 20%;
+   transition: width 2s, height 2s, transform 2s;
+}
+
+.imgsobre:hover{
+   transform: rotate(180deg);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
